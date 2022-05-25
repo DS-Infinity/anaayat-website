@@ -31,11 +31,11 @@ export default function Home() {
             </p>
             <button className="home__button">Know More</button>
             <div className="home__socials">
-              <Link href="/">Instagram</Link>
+              <Link href="https://www.instagram.com/anaayatorganisation/">Instagram</Link>
               <span className="socials__dot">·</span>
-              <Link href="/about">YouTube</Link>
+              <Link href="/">YouTube</Link>
               <span className="socials__dot">·</span>
-              <Link href="/contact">Twitter</Link>
+              <Link href="https://twitter.com/AnaayatOrg">Twitter</Link>
             </div>
           </div>
           <div className="home__image-container">
