@@ -65,7 +65,7 @@ export default function Home() {
               We want to be the platform and the voice, of those, who lack the
               resources to speak for themselves and sustain themselves.
             </p>
-            <button className="home__about-btn">Know More</button>
+          
           </div>
         </div>
         <hr className="home__hr" />
