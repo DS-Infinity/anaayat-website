@@ -14,9 +14,6 @@ export default function MissionCard({ image }) {
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 						varius enim in eros elementum tristique. Duis cursus,
 					</p>
-					<Link href="/">
-						<span className="mission-card-more">Read more</span>
-					</Link>
 				</div>
 			</div>
 		</div>
