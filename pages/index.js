@@ -26,8 +26,10 @@ export default function Home() {
               Advocating poverty related issues and taking a dig at various problems related
             </div>
             <p className="home__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              Anaayat organisation is a student-led organisation under Bifröst that strives to promote 
+    awareness about widespread issues of poverty and hunger. We offer our members a stress-free environment 
+    which provides a platform to learn skills and perks like LOR. We believe in being the light of the obscured. 
+    We acknowledge our privilege and endeavour to use it the right way.
             </p>
             <button className="home__button">Know More</button>
             <div className="home__socials">
