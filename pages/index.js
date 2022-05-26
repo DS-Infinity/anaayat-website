@@ -31,7 +31,6 @@ export default function Home() {
     which provides a platform to learn skills and perks like LOR. We believe in being the light of the obscured. 
     We acknowledge our privilege and endeavour to use it the right way.
             </p>
-            <button className="home__button">Know More</button>
             <div className="home__socials">
               <Link href="https://www.instagram.com/anaayatorganisation/">Instagram</Link>
               <span className="socials__dot">·</span>
