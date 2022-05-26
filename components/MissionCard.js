@@ -11,8 +11,9 @@ export default function MissionCard({ image }) {
 				<div className="mission-card-info">
 					<h2 className="mission-card-title">Heading</h2>
 					<p className="mission-card-description">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-						varius enim in eros elementum tristique. Duis cursus,
+						Anaayat is an organisation working for the welfare 
+						of the less efficient and to eradicate poverty.
+
 					</p>
 				</div>
 			</div>
