@@ -98,20 +98,23 @@
   justify-content: space-around;
   align-items: center;
   width: 84vw;
-  /* height: 70vh; */
+  height: 50vh;
   margin-top: 20vh;
   align-self: center;
   background-color: var(--tertiary-brown);
 }
 
 .home__about-image-container {
-  width: 24vw;
-  height: 70vh;
+  max-width: 24%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home__about-image {
   object-fit: cover;
-  height: auto;
+  border-radius: 5px;
 }
 
 .home__about-title {
