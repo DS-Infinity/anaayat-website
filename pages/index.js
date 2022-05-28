@@ -8,8 +8,10 @@ import pov7 from '../public/pov7.jpeg';
 import pov8 from '../public/pov8.jpeg';
 import pov9 from '../public/pov9.jpeg';
 import pov10 from '../public/pov10.jpeg';
+import { useSession, signIn, signOut } from 'next-auth/react';
 
 export default function Home() {
+  const { data: session } = useSession();
   return (
     <div className="home__container">
       <Navbar />
@@ -23,16 +25,21 @@ export default function Home() {
         <div className="home__landing">
           <div className="home__left-side">
             <div className="home__heading">
-              Advocating poverty related issues and taking a dig at various problems related
+              Advocating poverty related issues and taking a dig at various
+              problems related
             </div>
             <p className="home__description">
-              Anaayat organisation is a student-led organisation under Bifröst that strives to promote 
-    awareness about widespread issues of poverty and hunger. We offer our members a stress-free environment 
-    which provides a platform to learn skills and perks like LOR. We believe in being the light of the obscured. 
-    We acknowledge our privilege and endeavour to use it the right way.
+              Anaayat organisation is a student-led organisation under Bifröst
+              that strives to promote awareness about widespread issues of
+              poverty and hunger. We offer our members a stress-free environment
+              which provides a platform to learn skills and perks like LOR. We
+              believe in being the light of the obscured. We acknowledge our
+              privilege and endeavour to use it the right way.
             </p>
             <div className="home__socials">
-              <Link href="https://www.instagram.com/anaayatorganisation/">Instagram</Link>
+              <Link href="https://www.instagram.com/anaayatorganisation/">
+                Instagram
+              </Link>
               <span className="socials__dot">·</span>
               <Link href="/">YouTube</Link>
               <span className="socials__dot">·</span>
@@ -52,7 +59,7 @@ export default function Home() {
         <hr className="home__hr" />
         <div className="home__about">
           <div className="home__about-image-container">
-            <Image className="home__about-image" src={pov8} alt="image"   />
+            <Image className="home__about-image" src={pov8} alt="image" />
           </div>
           <div className="home__about-info">
             <div className="home__about-title">About Us</div>
@@ -66,7 +73,6 @@ export default function Home() {
               We want to be the platform and the voice, of those, who lack the
               resources to speak for themselves and sustain themselves.
             </p>
-          
           </div>
         </div>
         <hr className="home__hr" />

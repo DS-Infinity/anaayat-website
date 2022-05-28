@@ -1,8 +1,10 @@
 import logo from '../public/logo.png';
 import Link from 'next/link';
 import Image from 'next/image';
+import { signIn, signOut, useSession } from 'next-auth/react';
 
 export default function Navbar() {
+  const { data: session } = useSession();
   return (
     <nav className="navbar">
       <div className="navbar__container">
@@ -37,6 +39,27 @@ export default function Navbar() {
             </Link>
           </li>
           <span className="navbar__dot"></span>
+          <li className="navbar__login-btn navbar__link">
+            {session ? (
+              <button className="navbar__auth-btn" onClick={() => signOut()}>
+                Logout
+              </button>
+            ) : (
+              <button
+                className="navbar__auth-btn"
+                onClick={() => signIn('google')}
+              >
+                Sign In
+              </button>
+            )}
+          </li>
+          {session ? (
+            <Image
+              src={session.user.image}
+              className="navbar__profile-image"
+              alt="avatar" width={40} height={40}
+            />
+          ) : null}
         </ul>
         <div
           className="navbar__hamburger"
