@@ -10,12 +10,12 @@ export default function Slider() {
 				return (
 					<div className="slider" key={i}>
 						<div className="slider__image">
-							<Image
-								src={raisha}
+							<img
+								src={photo}
 								width="300px"
 								height="270px"
 								className="photo__team"
-								alt="photo"></Image>
+								alt="photo"></img>
 						</div>
 						<div className="slider__name">
 							<h2>{name}</h2>
