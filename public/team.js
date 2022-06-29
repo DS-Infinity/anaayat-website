@@ -15,7 +15,7 @@ module.exports = [
 	},
 	{
 		name: "Namish Rathy",
-		position: "Internal Affairs Manager",
+		position: "Vice-President",
 		desc: "Namish is currently a high school student, one who is extremely passionate about everything! He is our manager of internal affairs.  He is a zealous individual, driven by force of immaculate thoughts and action, with ardent perspectives on world affairs and societal evils. He is a team-worker, who can empower, those around him to use their radical voices and question aspects that have never been dealt with earlier. With an experience of leading several projects and an organization of his own he is a true definition of what we call a “perfectionist”",
 		photo:
 			"https://media.discordapp.net/attachments/820568831801425931/979095342077337620/WhatsApp_Image_2022-04-30_at_11.21.24_PM.jpeg?width=719&height=608",
@@ -26,13 +26,6 @@ module.exports = [
 		desc: "If someone knows how to make an organisation reach new heights, it’s Chirag Mahajan, our marketing head, he an euphoric individual who knows how to make content that approaches wide audiences. He believes that with Anaayat, he can do and make a platform dedicated to poor at mere age of 14",
 		photo:
 			"https://media.discordapp.net/attachments/820568831801425931/979095442698674196/WhatsApp_Image_2022-04-30_at_11.23.54_PM.jpeg?width=718&height=484",
-	},
-	{
-		name: "Saksham Khattar",
-		position: "Marketing Head",
-		desc: "Saksham is our marketing head, he is a jolly soul who is approachable and fun to work with. He wants big goals and big aims for Anaayat and knows how to market ideas and turn them into real projects! he is the perfect blend of funny and serious! He is a 15 year old student with high hopes and dreams with Anaayat",
-		photo:
-			"https://media.discordapp.net/attachments/820568831801425931/979094654601556078/WhatsApp_Image_2022-04-30_at_11.35.06_PM.jpeg?width=620&height=631",
 	},
 	{
 		name: "Manya Aggarwal",
