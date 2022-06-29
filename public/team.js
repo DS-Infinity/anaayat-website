@@ -7,11 +7,11 @@ module.exports = [
 			"https://media.discordapp.net/attachments/780471839193432104/989473098053087242/raisha.jpeg?width=345&height=632",
 	},
 	{
-		name: "Shaurya Dani",
-		position: "Vice-President and Debate Drama Head",
-		desc: "Shaurya Dani is our vice president and debate and drama head! He is an amazing spokesperson, a brilliant 16 year old student, and someone who has passion for academics.   He is upbeat and determined. He would like to function to eradicate poverty by all means with the help of Anaayat. “Poverty is a fire that cannot be extinguished alone by someone but we here at Anaayat will work to stop that fire”",
+		name: "Vatsal Gupta",
+		position: "Vice-President",
+		desc: "Vatsal Gupta, Our Vice President specialised in Operations & Communications as well as External Affairs is a 16-year old student is an enterprising and creative person who recognises his contribution to the welfare of the society. He has a keen interest in programming as well as bringing a fruitful change in today’s world.",
 		photo:
-			"https://media.discordapp.net/attachments/820568831801425931/979095222053130290/WhatsApp_Image_2022-04-30_at_11.16.12_PM.jpeg?width=288&height=623",
+			"https://media.discordapp.net/attachments/780471839193432104/991730982216548412/WhatsApp_Image_2022-06-29_at_6.56.40_PM.jpeg?width=408&height=632",
 	},
 	{
 		name: "Namish Rathy",
