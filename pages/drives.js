@@ -97,9 +97,30 @@ export default function Drives() {
 				<div className="drives__main-funds-heading">
 					<h1>Fund Raiser</h1>
 				</div>
-				<Drivecard />
-				<Drivecard />
-				<Drivecard />
+				<Drivecard
+					link={"https://forms.gle/8dQWNepQQmKPa5tcA"}
+					started={"16th july"}
+					para={
+						'Anaayat Organisation is proud to announce that we are doing our very first drive, "Project Raahat" which involves distribution of summer coolers and other various food items as well as sharing economic knowledge to the poor labourers and workers who tirelessly work in the scroaching heat of Delhi. We are organising this drive in Hauz Khas Market on Saturday, 16th July 2022. We need your help to accomplish this mission in the form of donations for making better good. Kindly fill the below mentioned form and donate to our cause. Even your small amount counts as a way for betterment of society from Anaayat Organisation from Bifröst EdTech.'
+					}
+					title={"Raahat"}
+				/>
+				{/* <Drivecard
+					link={"https://forms.gle/8dQWNepQQmKPa5tcA"}
+					started={"16th july"}
+					para={
+						'Anaayat Organisation is proud to announce that we are doing our very first drive, "Project Raahat" which involves distribution of summer coolers and other various food items as well as sharing economic knowledge to the poor labourers and workers who tirelessly work in the scroaching heat of Delhi. We are organising this drive in Hauz Khas Market on Saturday, 16th July 2022. We need your help to accomplish this mission in the form of donations for making better good. Kindly fill the below mentioned form and donate to our cause. Even your small amount counts as a way for betterment of society from Anaayat Organisation from Bifröst EdTech.'
+					}
+					title={"Raahat"}
+				/>
+				<Drivecard
+					link={"https://forms.gle/8dQWNepQQmKPa5tcA"}
+					started={"16th july"}
+					para={
+						'Anaayat Organisation is proud to announce that we are doing our very first drive, "Project Raahat" which involves distribution of summer coolers and other various food items as well as sharing economic knowledge to the poor labourers and workers who tirelessly work in the scroaching heat of Delhi. We are organising this drive in Hauz Khas Market on Saturday, 16th July 2022. We need your help to accomplish this mission in the form of donations for making better good. Kindly fill the below mentioned form and donate to our cause. Even your small amount counts as a way for betterment of society from Anaayat Organisation from Bifröst EdTech.'
+					}
+					title={"Raahat"}
+				/> */}
 			</div>
 			<Footer />
 		</div>
